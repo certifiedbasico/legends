@@ -136,6 +136,14 @@ Ambientada en una representación ficticia de la antigua Persia, esta historia c
       available: true,
       status: "available", // Add this line
     },
+    {
+      number: 13,
+      coverImage: "/arslan13.webp",
+      pdfLink: "https://www.mediafire.com/file/9ioajve78d6dmep/%255BSvartalheimer%255D_Arslan_Senki_-_Volumen_13.pdf/file",
+      epubLink: "https://www.mediafire.com/file/rpnrpitlj73ajtm/%255BSvartalheimer%255D._Arslan_Senki._Volumen_13.epub/file",
+      available: true,
+      status: "available", // Add this line
+    },
   ],
 }
 
