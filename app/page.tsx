@@ -30,12 +30,12 @@ interface LatestVolume {
 
 // Sample data - easily modifiable
 const latestVolume: LatestVolume = {
-  title: "Arslan Senki",
+  title: "Risou no Himo Seikatsu",
   description:
-    "Después de una pérdida inesperada y devastadora en la Batalla de Atropátene, el Príncipe Heredero de Pars debe recuperar nuevas fuerzas y hacer nuevos aliados para recuperar su reino perdido. Arslan, de 14 años, ha estado protegido durante la mayor parte de su vida, pero ahora debe enfrentar los desafíos de la guerra, la traición, la política y algo aún más siniestro que se avecina en el horizonte.",
-  volumeNumber: 13,
-  coverImage: "/arslan13.webp",
-  downloadUrl: "/arslan-senki",
+    "Zenjiro Yamai, un oficinista en el Japón moderno, de repente se ve convocado a otro mundo. La persona que lo convocó, la Reina Aura, quiere que se case con ella y deje atrás su antigua vida por una vida de extravagancia despreocupada como su esposo y Príncipe Consorte. Le dicen que si acepta, sólo tendrá que proporcionarle un heredero.",
+  volumeNumber: 15,
+  coverImage: "/risou17.webp",
+  downloadUrl: "/risou-no-himo-seikatsu",
 }
 
 const novels: Novel[] = [
@@ -448,6 +448,16 @@ const novels: Novel[] = [
     status: "not-started",
     isClickable: false,
     link: "#",
+  },
+  {
+    id: "41",
+    title: "Risou no Himo Seikatsu",
+    description: "Tras un reinado cruel y calculado, Kai Lekius, el Rey Sanguinario, trajo la estabilidad y la paz a su antaño fragmentada tierra. Así comenzó su letargo mortal mientras esperaba el surgimiento de la magia, dejando el resto en las capaces manos de su hermano.",
+    coverImage: "/risou17.webp",
+    genres: ["-"],
+    status: "in-progress",
+    isClickable: true,
+    link: "/risou-no-himo-seikatsu",
   },
 ]
 
