@@ -12,7 +12,7 @@ import { Navbar } from "@/components/navbar"
 // DATOS DE LA NOVELA - Solo cambia esto para crear una nueva página
 const novelData = {
   title: "Tantei wa Mou, Shindeiru",
-  coverImage: "/tantei.webp",
+  coverImage: "/tantei/tantei12.webp",
   isCompleted: false,
   synopsis: `La historia se centra en Kimihiko Kimizuka, una estudiante de tercer año de secundaria y ex asistente de un detective llamado Siesta. Conoció a Siesta hace tres años, a 10.000 metros sobre el suelo, en un avión secuestrado. 
   
@@ -24,8 +24,8 @@ const novelData = {
     illustrator: "Umibouzu",
     yearPublished: "2019",
     publisher: "MF Bunko",
-    totalVolumes: 5,
-    translatedVolumes: 5,
+    totalVolumes: 6,
+    translatedVolumes: 6,
     genres: ["Comedia", "Drama", "Misterio", "Romance"],
   },
 
@@ -73,6 +73,14 @@ const novelData = {
       number: 11,
       coverImage: "/tantei.webp",
       pdfLink: "https://www.mediafire.com/file/0sr30sq9vdh9d25/Tantei_wa_mou_Shundeiru_Vol_11.pdf/file",
+      epubLink: "#",
+      available: true,
+      status: "available", // Add this line
+    },
+    {
+      number: 12,
+      coverImage: "/tantei/tantei12.webp",
+      pdfLink: "https://www.mediafire.com/file/8p3h1zpiburouuf/Tantei_wa_mou_Shundeiru_Vol_12.pdf/file",
       epubLink: "#",
       available: true,
       status: "available", // Add this line

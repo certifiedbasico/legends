@@ -30,12 +30,12 @@ interface LatestVolume {
 
 // Sample data - easily modifiable
 const latestVolume: LatestVolume = {
-  title: "Risou no Himo Seikatsu",
+  title: "Tantei wa Mou, Shindeiru",
   description:
-    "Zenjiro Yamai, un oficinista en el Japón moderno, de repente se ve convocado a otro mundo. La persona que lo convocó, la Reina Aura, quiere que se case con ella y deje atrás su antigua vida por una vida de extravagancia despreocupada como su esposo y Príncipe Consorte. Le dicen que si acepta, sólo tendrá que proporcionarle un heredero.",
-  volumeNumber: 15,
-  coverImage: "/risou17.webp",
-  downloadUrl: "/risou-no-himo-seikatsu",
+    "La historia se centra en Kimihiko Kimizuka, una estudiante de tercer año de secundaria y ex asistente de un detective llamado Siesta. Conoció a Siesta hace tres años, a 10.000 metros sobre el suelo, en un avión secuestrado.",
+  volumeNumber: 12,
+  coverImage: "/tantei/tantei12.webp",
+  downloadUrl: "/tantei-wa-mou",
 }
 
 const novels: Novel[] = [
