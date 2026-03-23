@@ -30,12 +30,12 @@ interface LatestVolume {
 
 // Sample data - easily modifiable
 const latestVolume: LatestVolume = {
-  title: "Tantei wa Mou, Shindeiru",
+  title: "Juudan Maouji no Isekai Kouryaku: Maougun nanoni Gendai Heiki wo Shoukan shite Attouteki ni Tatakattemo Ii desu ka",
   description:
-    "La historia se centra en Kimihiko Kimizuka, una estudiante de tercer año de secundaria y ex asistente de un detective llamado Siesta. Conoció a Siesta hace tres años, a 10.000 metros sobre el suelo, en un avión secuestrado.",
-  volumeNumber: 12,
-  coverImage: "/tantei/tantei12.webp",
-  downloadUrl: "/tantei-wa-mou",
+    "El volumen 1 del Demonio de las balas ya está aquí y disponible para su descarga!!",
+  volumeNumber: 1,
+  coverImage: "/judan.webp",
+  downloadUrl: "/juudan-maouji-no-isekai-kouryaku",
 }
 
 const novels: Novel[] = [
@@ -458,6 +458,16 @@ const novels: Novel[] = [
     status: "in-progress",
     isClickable: true,
     link: "/risou-no-himo-seikatsu",
+  },
+  {
+    id: "42",
+    title: "Juudan Maouji no Isekai Kouryaku: Maougun nanoni Gendai Heiki wo Shoukan shite Attouteki ni Tatakattemo Ii desu ka",
+    description: "...",
+    coverImage: "/judan.webp",
+    genres: ["-"],
+    status: "in-progress",
+    isClickable: true,
+    link: "/juudan-maouji-no-isekai-kouryaku",
   },
 ]
 
