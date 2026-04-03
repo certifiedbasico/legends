@@ -30,12 +30,12 @@ interface LatestVolume {
 
 // Sample data - easily modifiable
 const latestVolume: LatestVolume = {
-  title: "Juudan Maouji no Isekai Kouryaku: Maougun nanoni Gendai Heiki wo Shoukan shite Attouteki ni Tatakattemo Ii desu ka",
+  title: "Charlotte wa Tada, Jiken wo Tokitai. Tantei wa Mou, Shindeiru. Code:RED",
   description:
-    "El volumen 1 del Demonio de las balas ya está aquí y disponible para su descarga!!",
+    "El volumen 1 de Charlotte wa Tada, Jiken wo Tokitai. Tantei wa Mou, Shindeiru. Code:RED ya está aquí y disponible para su descarga!!",
   volumeNumber: 1,
-  coverImage: "/judan.webp",
-  downloadUrl: "/juudan-maouji-no-isekai-kouryaku",
+  coverImage: "/charlottev1.webp",
+  downloadUrl: "/charlotte-wa-tada",
 }
 
 const novels: Novel[] = [
@@ -468,6 +468,16 @@ const novels: Novel[] = [
     status: "in-progress",
     isClickable: true,
     link: "/juudan-maouji-no-isekai-kouryaku",
+  },
+  {
+    id: "43",
+    title: "Charlotte wa Tada, Jiken wo Tokitai. Tantei wa Mou, Shindeiru. Code:RED",
+    description: "...",
+    coverImage: "/charlottev1.webp",
+    genres: ["-"],
+    status: "in-progress",
+    isClickable: true,
+    link: "/charlotte-wa-tada",
   },
 ]
 
